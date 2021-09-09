@@ -4,13 +4,14 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.view.View;
-import android.widget.ImageView;
+
+import androidx.appcompat.widget.AppCompatImageView;
 
 import app.dinus.com.loadingdrawable.render.LoadingDrawable;
 import app.dinus.com.loadingdrawable.render.LoadingRenderer;
 import app.dinus.com.loadingdrawable.render.LoadingRendererFactory;
 
-public class LoadingView extends ImageView {
+public class LoadingView extends AppCompatImageView {
     private LoadingDrawable mLoadingDrawable;
 
     public LoadingView(Context context) {
